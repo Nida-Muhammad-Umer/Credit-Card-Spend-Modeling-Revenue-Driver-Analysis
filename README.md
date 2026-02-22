@@ -41,9 +41,9 @@ Data was randomly split using a fixed seed to ensure reproducibility.
 
 charges ~ income + size + education + tv + age + gender + limit
 
-- Multiple R² = 0.371
+- Multiple R² = 0.3711
 - Adjusted R² = 0.3696
-- F-statistic p-value < 2e-16
+- F-statistic p-value < 2.2e-16
 
 **Significant predictors (α = 0.05):**
 - Income (+)
@@ -64,7 +64,7 @@ Purpose:
 - Address heteroskedasticity
 - Improve residual variance stability
 
-R² ≈ 0.207
+R² ≈ 0.2071
 
 Log transformation improved error structure but reduced explanatory power relative to the linear model.
 
@@ -116,7 +116,7 @@ No severe multicollinearity observed.
 Models were evaluated using test-set Mean Squared Error (MSE).
 
 Baseline Linear Model:
-- RMSE ≈ $4,860
+- RMSE ≈ $4,857
 
 More complex models (nonlinear and interaction) did not significantly outperform the simpler baseline model on unseen data.
 
